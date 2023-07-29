@@ -1,0 +1,58 @@
+/* for screens between 560 pixels and 1300 pixels */
+
+@media screen and (min-width: 560px) {
+
+    /*  margin the content div & remove padding*/
+    .content {
+        padding: 0;
+    }
+
+    .site-para {
+        width: 90%;
+        margin: 30px auto;
+        padding: 0;
+    }
+
+    .site-img {
+        border-radius: 10px;
+    }
+
+    /* Increase font size of nav links */
+    .list-item__site-link {
+        font-size: 1.3rem;
+    }
+
+    /* Size the logo accordingly */
+    .logo {
+        width: 200px;
+    }
+
+    .main-content {
+        padding: 0 30px;
+    }
+
+    /* --------------------- Services Page Styles ------------------ */
+
+    /* grid the hidden food items div */
+    .hidden-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
+    .grid-fig__grid-img {
+        border-radius: 10px;
+    }
+
+    .party-pricing {
+        padding: 1px;
+        border-radius: 50px;
+        margin-bottom: 30px;
+    }
+
+    .contact-form,
+    .cta-box {
+        width: 560px;
+    }
+
+}

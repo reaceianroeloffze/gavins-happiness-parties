@@ -1,0 +1,66 @@
+<!-- Template for Contact Forms -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Developer name">
+    <meta name="description" content="page description">
+    <link rel="stylesheet" href="/css/small.css" media="screen">
+    <link rel="stylesheet" href="/css/medium.css" media="screen">
+    <link rel="stylesheet" href="/css/large.css" media="screen">
+    <link rel="stylesheet" href="/css/normalize.css" media="screen">
+    <link rel="icon" href="/images/site-icon/ghp-icon.png">
+    <title>Contact Us | Gavin's Happiness Parties</title>
+</head>
+<body>
+        <!-- Content container -->
+        <div class="content">
+            <!-- Header & Navigation -->
+            <header class="site-header">
+                <a href="/index.html" class="site-link home-link"><img src="/images/site-logo/gavins-parties-logo.png" alt="Site Logo" class="logo site-img"></a>
+            </header>
+            <!-- Basic Navigation. Modify as needed -->
+            <nav class="site-navigation">
+                <ul class="site-navigation__links-list">
+                    <li class="links-list__list-item"><a href="/index.html" class="list-item__site-link">Home</a></li>
+                    <li class="links-list__list-item"><a href="services.html" class="list-item__site-link">Our Services</a></li>
+                    <li class="links-list__list-item"><a href="contact.html" class="list-item__site-link">Contact Us</a></li>
+                </ul>
+            </nav>
+            <!-- Main content for site -->
+            <main class="main-content">
+                <h1 class="page-title">Page Title Here</h1>
+                <div class="cta-box">
+                    <p class="cta-box__para">
+                        WhatsApp/cellphone:<br>&phone; <a href="tel:+27735886591" class="cta-box__cel-num">073 588 6591</a><br>
+                    </p>
+                </div>
+                <form action="https://formsubmit.co/righawkroeloffze@gmail.com" method="post" class="contact-form">
+                    <p class="form-para">An asterisk (*) indicates the input of a required field.</p>
+                    <label class="full-name form-label">Full Name:*
+                        <input type="text" class="full-name__full-name-input form-input" name="full-name" placeholder="First, Last" required>
+                    </label>
+                    <label class="phone-num form-label">Phone Number:
+                        <input type="tel" class="phone-num__num-input form-input" name="phone-number" placeholder="+27712345678">
+                    </label>
+                    <label class="message form-label">Message:*
+                        <textarea name="message" class="message__input form-textarea" cols="30" rows="10" placeholder="How can we be of assistance?" required></textarea>
+                    </label>
+                    <button class="form-button">Contact Gavin</button>
+                </form>
+            </main>
+               
+            <!-- Site Footer -->
+            <footer class="site-footer">
+                <!-- Year is automatically input using JavaScript -->
+                <p class="copyright">© <span class="copyright__date"></span> Developer Name | Company Name</p>
+                <!-- Last Updated is done using JavaScript -->
+                <p class="last-updated">Last Updated: <span class="last-updated__date"></span></p>
+            </footer>
+        </div>
+    
+       <script src="js/last-updated.js"></script>
+       <script src="js/catalogue.js"></script>
+</body>
+</html>

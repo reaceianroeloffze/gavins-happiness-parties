@@ -1,0 +1,243 @@
+/* For styling mobile screens and all general cross-site styles */
+
+/* Fonts used on this site */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Luckiest+Guy&display=swap');
+
+/* ---------- General Cross-site Styles ------------- */
+
+/* Border box every container */
+* {
+    box-sizing: border-box;
+}
+
+/* Pad the content div & assign the DM sans font to it
+Assign it a colour */
+.content {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #FFFCFC;
+    color: #960D0D;
+    font-size: 1.5rem;
+}
+
+/* Flex Display all desired elements/containers */
+.site-header,
+.site-navigation__links-list {
+    display: flex;
+}
+
+/* Remove underline from all links */
+a {
+    text-decoration: none;
+    color: #960D0D;
+    font-size: 1.1rem;
+}
+
+.page-title {
+    font-size: 3rem;
+}
+
+.site-h2 {
+    font-size: 2.5rem;
+}
+
+.site-para {
+    padding: 0 30px 0 30px;
+}
+
+/* Assign all headings the Luckiest Guy Font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 1.5px;
+    color: #E01689;;
+}
+
+/* Centre align all headings & other desired content */
+h1, h2, h3, h4, h5, h6,
+.site-footer,
+.list-item__site-link,
+.form-para,
+.cta-box,
+.hidden-grid__grid-fig {
+    text-align: center;
+}
+
+/* Apply a Border Radius to all desired elements */
+.site-navigation,
+.list-item__site-link,
+.contact-form,
+.form-input,
+.form-textarea,
+.form-button,
+.section-toggle,
+.section-toggle2 {
+    border-radius: 10px;
+}
+
+.site-img {
+    width: 100%;
+}
+
+/* Centre align the logo box if so desired */
+.site-header {
+    justify-content: space-around;
+}
+
+/* Set the site logo to the appropriate width & space it
+appropriately from the site name */
+.logo {
+    width: 100px;
+}
+
+/* Centre align the site link */
+.home-link {
+    align-items: center;
+}
+
+/* remove margin, list style, and padding from nav ul
+& position ul elements as desired  */
+.site-navigation__links-list {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Make the navigation bar sticky or position as desired
+and apply all other styles as well */
+.site-navigation {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #E01689;
+    color: #FFFCFC;
+    border-radius: 0;
+}
+
+/* span the width of all li elements in the nav bar */
+.links-list__list-item {
+    width: 100%;
+}
+
+/* display links in nav bar as block for proper alignment */
+.list-item__site-link {
+    padding: 20px 5px;
+    display: block;
+    color: #FFFCFC;
+    border-radius: 0;
+}
+
+/* Reverse colours of anchor tags when hovering over them */
+.list-item__site-link:hover {
+    background-color: #FFFCFC;
+    color: #960D0D;
+}
+
+/* Set colours for the nav anchor tags when clicked */
+.list-item__site-link:active {
+    background-color: #EACD4E;
+}
+
+/* Style the footer */
+.site-footer {
+    background-color: #E01689;
+    color: #FFFCFC;
+    padding: 10px 0;
+}
+
+/* ------------ Services Page Styles ------------ */
+
+.hidden-section, .hidden-section2 {
+    display: none;
+}
+
+.expanded-section, .expanded-section2 {
+    display: block;
+}
+
+.grid-fig__grid-img {
+    width: 100%;
+    height: 100%;
+}
+
+.hidden-grid__grid-fig {
+    display: grid;
+    grid-template-rows: 1fr 60px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.section-toggle, .section-toggle2 {
+    display: block;
+    margin: auto;
+    background-color: #3a86ff;
+    color: #FFFCFC;
+    padding: 10px 20px;
+}
+
+.party-pricing {
+    background-color: #E01689;
+    color: #FFFCFC;
+}
+
+.party-pricing__price {
+    color: #FFFCFC;
+    font-size: 2.3rem;
+}
+
+.cinema {
+    margin-bottom: 50px;
+}
+
+/* ----------- Contact Form Styles ------------- */
+
+.cta-box {
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: inherit;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.form-input {
+    height: 60px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: inherit;
+}
+
+.form-textarea {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100%;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+}
+
+.form-button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form-button:active {
+    border: 5px inset ;
+}

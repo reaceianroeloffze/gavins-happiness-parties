@@ -51,6 +51,10 @@
         margin-bottom: 30px;
     }
 
+    .cta-box {
+        border-radius: 30px;
+    }
+
     .contact-form,
     .cta-box {
         width: 560px;

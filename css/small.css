@@ -197,17 +197,19 @@ and apply all other styles as well */
 .cta-box {
     padding: 10px;
     margin: 0 auto;
-    border-radius: 30px;
     margin-bottom: 50px;
     background-color: #E01689;
     color: #FFFCFC;
 }
 
-.cta-box__cel-num {
+.cta-box__cel-num,
+.cta-box__email {
     color: #FFFCFC;
+    font-size: inherit;
 }
 
-.cta-box__cel-num:hover {
+.cta-box__cel-num:hover,
+.cta-box__email:hover {
     text-decoration: underline;
 }
 

@@ -44,7 +44,8 @@
         border-radius: 10px;
     }
 
-    .party-pricing {
+    .party-pricing,
+    .cinema-pricing {
         padding: 1px;
         border-radius: 50px;
         margin-bottom: 30px;

@@ -172,14 +172,18 @@ and apply all other styles as well */
     background-color: #3a86ff;
     color: #FFFCFC;
     padding: 10px 20px;
+    margin-top: 30px;
 }
 
-.party-pricing {
+.party-pricing,
+.cinema-pricing {
     background-color: #E01689;
     color: #FFFCFC;
+    padding: 1px;
 }
 
-.party-pricing__price {
+.party-pricing__price,
+.cinema-pricing__price {
     color: #FFFCFC;
     font-size: 2.3rem;
 }
@@ -195,13 +199,26 @@ and apply all other styles as well */
     margin: 0 auto;
     border-radius: 30px;
     margin-bottom: 50px;
+    background-color: #E01689;
+    color: #FFFCFC;
+}
+
+.cta-box__cel-num {
+    color: #FFFCFC;
+}
+
+.cta-box__cel-num:hover {
+    text-decoration: underline;
 }
 
 .contact-form {
     width: 90vw;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     font-family: inherit;
+    background-color: #E01689;
+    color: #FFFCFC;
+    margin-bottom: 50px;
 }
 
 .form-label {
@@ -219,6 +236,10 @@ and apply all other styles as well */
     padding-left: 10px;
     padding-right: 10px;
     font-family: inherit;
+    outline: none;
+    border: none;
+    color: #960D0D;
+    background-color: #FFFCFC;
 }
 
 .form-textarea {
@@ -227,17 +248,18 @@ and apply all other styles as well */
     max-width: 100%;
 }
 
-.form-input::placeholder,
-.form-textarea::placeholder {
-}
-
 .form-button {
     display: block;
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 20px;
+    color: #960D0D;
+    border: 5px solid #960D0D;
+    background-color: #FFFCFC;
 }
 
 .form-button:active {
-    border: 5px inset ;
+    border: 5px inset #960D0D;
+    background-color: #960D0D;
+    color: #FFFCFC;
 }
